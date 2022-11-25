@@ -6,8 +6,6 @@ public class Main {
                 Book javaDLyaChaynikov = new Book("Джава для чайников", berdBarry, 2018);
                 avtostopomPoGalaktike.setPublicationYear(1980);
                 System.out.println(javaDLyaChaynikov);
-                Author ronaldTolkin = new Author("Рональд", "Толкин");
-                new Book("Братство кольца", ronaldTolkin, 1954);
                 System.out.println(avtostopomPoGalaktike.equals(avtostopomPoGalaktike));
             }
         }
